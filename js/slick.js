@@ -1,22 +1,5 @@
 $(function () {
-  $(".class-gallery-list").slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    variableWidth: true,
-    autoplay: true,
-    autoplaySpeed: 3500,
-    speed: 1000,
-    dots: false,
-    centerMode: true,
-    cssEase: "linear",
-    prevArrow: ".class-gallery-list-left",
-    nextArrow: ".class-gallery-list-right",
-  });
-});
-
-$(function () {
-  $(".class-reviews-list").slick({
+  $(".business-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -27,7 +10,40 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".class-reviews-list-left",
-    nextArrow: ".class-reviews-list-right",
+    prevArrow: ".business-gallery-list-left",
+    nextArrow: ".business-gallery-list-right",
+  });
+});
+
+$(function () {
+  $(".business-reviews-list").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 3500,
+    speed: 1000,
+    dots: true,
+    centerMode: true,
+    cssEase: "linear",
+    prevArrow: ".business-reviews-list-left",
+    nextArrow: ".business-reviews-list-right",
+  });
+});
+$(function () {
+  $(".business-why-list").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    variableWidth: true,
+    autoplay: true,
+    autoplaySpeed: 3500,
+    speed: 1000,
+    dots: true,
+    centerMode: true,
+    cssEase: "linear",
+    prevArrow: ".business-why-list-left",
+    nextArrow: ".business-why-list-right",
   });
 });
